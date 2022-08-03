@@ -1,0 +1,130 @@
+body {
+    margin: 0 auto;
+    width: 1640px;
+}
+.header {
+    position: relative;
+    width: auto;
+    height: 880px;
+    font-family: Arial;
+    font-weight: 700;
+    background: rgba(208, 198, 247, 0.44);
+}
+.header ul {
+    display: flex;
+    color: #3C3C3C;
+}
+ul li{
+    margin: 12px 24px;
+    font-size: 12px;
+    line-height: 16px;
+}
+ul hr {
+    margin: 8px 0;
+    width: 1px;
+    height: 24px;
+    background: #DCDCDC;
+}
+.help-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.log-sign {
+    position: relative;
+    margin-top: 24px;
+    height: 40px;
+}
+.log-sign img {
+    margin: 0 17px;
+    width: 200px;
+}
+.log-sign button {
+    position: absolute;
+    top: 0;
+    width: 101px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.sign {
+    right: 16px;
+}
+
+.sign, .browse {
+    color: #FFFFFF;
+    background: #4792DE;
+}
+
+.log {
+    right: 117px;
+    background: transparent;
+}
+
+.middle {
+    position: absolute;
+    top: 223px;
+    left: 289px;
+    display: flex;
+}
+.picture {
+    position: relative;
+    margin-right: 64px;
+    width: 556px;
+    height: 400px;
+}
+.big-img {
+    width: 100%;
+    height: 100%;
+}
+.small-img {
+    position: absolute;
+    left: -53px;
+    bottom: -54px;
+    width: 278px;
+    height: 200px;
+}
+.text-part {
+    width: 611px;
+}
+.middle-title {
+    margin-top: 20px;
+    font-size: 64px;
+    line-height: 72px;
+    color: #271759;
+}
+.browse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    width: 380px;
+    height: 88px;
+    border-radius: 96px;
+    border: none;
+    font-size: 24px;
+    line-height: 32px;
+}
+.browse .icon {
+    margin-right: 31px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+}
+.end-text, .xs-end-text {
+    display: block;
+    width: 380px;
+    text-align: center;
+}
+.end-text {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.xs-end-text {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #696969;
+}

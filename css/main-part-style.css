@@ -1,0 +1,73 @@
+.main-part {
+    width: 1640px;
+    font-family: Arial;
+    font-weight: 700;
+    color: #3C3C3C;
+}
+.main-part h1 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+}
+.main-part-img {
+    position: relative;
+    margin: 40px auto;
+    width: 980px;
+    height: 560px;
+}
+.main-part-img-one, .main-part-img-two {
+    position: absolute;
+    top: 0;
+    width: 488px;
+    height: 100%;
+    overflow: hidden;
+}
+.main-part-img-one, .main-part-img-one img {
+    left: 0;
+}
+.main-part-img-two, .main-part-img-two img {
+    right: 0;
+}
+.main-part-img-one img, .main-part-img-two img {
+    position: absolute;
+    top: 0;
+    width: 980px;
+    height: 100%;
+    border-radius: 15px;
+}
+.main-part-img-one::after, .main-part-img-two::after {
+    position: absolute;
+    top: 8px;
+    display: block;
+    padding: 4px 0;
+    box-sizing: border-box;
+    width: 31px;
+    height: 24px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    background: white;
+}
+.main-part-img-one::after {
+   right: 8px;
+   content: '1X';
+}
+.main-part-img-two::after {
+    left: 8px;
+    content: '2X';
+ }
+ .main-part-img-circle {
+    position: absolute;
+    top: 256px;
+    left: 468px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    text-align: center;
+    background: white;
+ }
+ .main-part-img-circle span {
+    line-height: 48px;
+ }
