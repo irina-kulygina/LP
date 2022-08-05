@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     width: 1640px;
+    background: #E5E5E5;
 }
 .header {
     position: relative;
