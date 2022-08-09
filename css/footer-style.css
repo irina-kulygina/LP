@@ -1,0 +1,154 @@
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    background-color: #000000;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 100px 54px 54px 54px 50px 50px;
+    width: 930px;
+    margin-bottom: 24px;
+}
+
+.footer-grid h4 {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.footer-grid li {
+    margin-bottom: 8px;
+}
+.footer-grid li a, .contact-group li {
+    color: #AAAAAA;
+}
+
+
+.deposit, .site-language {
+    grid-row-start: span 5;
+}
+.deposit {
+    margin-right: 123px;
+}
+.site-language {
+    margin-right: 43px;
+}
+
+.deposit ul, .language-1, .language-2, .legal ul, .contact-group {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+}
+.language .language-1 {
+    margin-right: 42px;
+}
+
+
+.legal {
+    margin-right: 67px;
+}
+.legal ul {
+    margin-bottom: 24px;
+}
+
+
+.app-iphone {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    margin-bottom: 24px;
+}
+.app-google {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+.app {
+    margin-bottom: 24px;
+    display: flex;
+    font-size: 15px;
+    color:#D2D2D2;
+}
+
+.app img {
+    margin-right: 2px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.app span {
+    font-size: 11px;
+}
+.store {
+    font-size: 10px;
+}
+
+
+.bird {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    display: flex;
+    flex-direction: column;
+}
+.bird img {
+    width: 108px;
+    height: 11px;
+    object-fit: cover;
+}
+
+
+.follow {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.nets img {
+    display: inline-block;
+    margin-right: 16px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+.nets img:last-child {
+    margin-right: 0;
+}
+
+
+.support {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.support h4 {
+    margin-bottom: 31px;
+}
+.support img {
+    display: inline-block;
+    margin-right: 16px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.support ul {
+    margin-bottom: 36px;
+}
+.support ul:last-child {
+    margin-bottom: 46px;
+}
+
+.text-footer {
+    grid-column-start: span 4;
+    align-self: center;
+    text-align: center;
+    font-size: 12px;
+    color: #AAAAAA;
+}
