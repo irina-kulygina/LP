@@ -357,3 +357,7 @@ margin-top: 56px;
 .each-question:first-child {
     margin-bottom: 32px;
 }
+.each-question:last-child {
+    margin-bottom: 0;
+    padding-bottom: 112px;
+}
